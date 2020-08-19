@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.daxiangmu.dao.UserDAO">
+
+<!--    用户注册-->
+    <insert id="addUser" parameterType="User">
+        insert into t_user1 values (null,#{u1_uName},#{u1_uName},#{u1_uPwd},#{u1_tel},#{u1_email},#{u1_receAdd})
+    </insert>
+
+    <select id="login" resultType="User">
+        select u1_id,u1_uName,u1_nName,u1_uPwd,u1_tel,u1_email,u1_receAdd from t_user1 where u1_uName=#{u1_uName} and u1_uPwd=#{u1_uPwd}
+    </select>
+</mapper>

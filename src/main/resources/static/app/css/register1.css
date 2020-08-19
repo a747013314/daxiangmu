@@ -1,0 +1,73 @@
+
+.register-form .ipt-yzm{
+	border: 1px solid #bdbdbd;
+	width:170px;
+	height:46px;
+	line-height: 46px;
+	text-indent: 6px;
+	float: left;
+	margin: 15px 0;
+}
+
+.register-form .get_check{
+	border: 1px solid #bdbdbd;
+	height:48px;
+	width: 100px;
+	float: left;
+	background: #fff;
+	cursor: pointer;
+	margin: 15px 0;
+}
+
+.register-form .get_check:hover{
+	border: 1px solid black;
+}
+
+.register-form .admin_register{
+	margin-top: 20px;
+	margin-left: 190px;
+	font-size:16px;
+	color: #333;
+	display: block;
+	text-decoration: none;
+}
+
+.register-form .admin_register:hover{
+	color: #e22;
+}
+
+.alert{
+	width: 300px;
+	height: 120px;
+	background-color: #F5F5F5;
+	position: absolute;
+	left: 618px;
+	top: 220px;
+	box-shadow:2px 2px 5px #000;
+	visibility:  hidden;
+}
+
+.alert .top{
+	padding-left: 5px;
+	padding-top: 5px;
+	height: 20%;
+}
+
+.alert .mid{
+	text-align: center;
+}
+
+.alert button{
+	border: 1px solid #bdbdbd;
+	height:40px;
+	width: 90px;
+	background: #fff;
+	cursor: pointer;
+	position: absolute;
+	left: 105px;
+	bottom: 5px;
+}
+
+.alert button:hover{
+	border: 1px solid black;
+}

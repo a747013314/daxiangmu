@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family: "microsoft yahei";
+}
+.login-top{
+	background-color: #bfa;
+	width: 100%;
+	height: 120px;
+}
+.login-mid{
+	background-color: purple;
+	width: 100%;
+	height: 480px;
+}
+.login-bottom{
+	background-color: gray;
+	width: 100%;
+	height: 80px;
+}
+.login-mid-t{
+	background-color: red;
+	width: 950px;
+	height: 480px;
+	position: relative;
+	left: 285px;
+}
+.unAndPwd{
+	background-color: white;
+	width: 340px;
+	height: 390px;
+	position: absolute;
+	right:10px;
+	top: 20px;
+}
+.unAndPwd-top{
+    text-align: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.unAndPwd-top-font{
+	padding: 21px 0;
+	font-size: 30px;
+    color: #e4393c;
+}
+.tips{
+	visibility: hidden;
+	background-color: #bfa;
+	width:300px;
+	height: 21px;
+	margin: 7px;
+	margin-left: 22px;
+	border: 1px solid #faccc6;
+	background-color: #ffebeb;
+	color: #e4393c;
+	text-indent: 6px;
+}
+.ipt-unAndPwd{
+	border: 1px solid #bdbdbd;
+	height: 40px;
+	width: 300px;
+	line-height: 40px;
+	text-indent: 6px;
+	margin-left: 22px;
+	margin-bottom: 23px;
+}
+.forgetPwd{
+	font-size: 12px;
+    color: #666;
+    position: relative;
+    left: 272px;
+    text-decoration: none;
+}
+.forgetPwd:hover{
+    color: #e4393c;
+}
+.ipt-sub{
+	background-color: #e4393c;
+	border: 1px solid #e85356;
+	height: 40px;
+	width: 300px;
+	margin-top: 15px;
+	margin-left: 22px;
+	margin-bottom: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.login-reg{
+	font-size: 17px;
+	color: #b61d1d;
+    position: relative;
+    left: 254px;
+    text-decoration: none;
+}
+.login-reg:hover{
+	color: #b61d1d;
+}

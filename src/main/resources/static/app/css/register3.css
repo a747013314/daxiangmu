@@ -1,0 +1,25 @@
+.register3-mid{
+	width:900px;
+	height:600px;
+	margin: 0 auto;
+}
+
+.register3-mid .top1{
+	margin-left:230px;
+}
+
+.register3-mid .mid{
+	margin: 70px auto;
+	width:700px;
+	height: 120px;
+	
+}
+
+.register3-mid .mid a{
+	font-size: 29px;
+	margin-left: 110px;
+}
+
+.register3-mid .mid a:hover{
+	color: #e4393c;
+}

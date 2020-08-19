@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>xx -注册1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" th:href="@{/app/css/register.css}"/>
+	<link rel="stylesheet" type="text/css" media="all" th:href="@{/app/css/register1.css}"/>
+	<script type="text/javascript" th:src="@{/app/js/register1.js}"></script>
+</head>
+<body>
+	<div class="alert"><div class="top">好兄弟提示：</div><div class="mid"></div><button onclick="hide()" type="button">确定</button></div>
+	<div class="register-top">
+		<div class="font">已有帐号？ <a href="login">请登录></a></div>
+	</div>
+	<div class="register-mid">
+		<form method="post" class="register-form" onsubmit="return check()">
+			<div class="top">
+				<div class="top1"><div class="yuanquan_ok">1</div><div class="font_ok">验证邮箱</div></div>				 			
+				<div class="top2">>>>>>></div>				
+				<div class="top3"><div class="yuanquan_no">2</div><div class="font_no">填写账号信息</div></div>				
+				<div class="top2">>>>>>></div>				
+				<div class="top4"><div class="yuanquan_no">3</div><div class="font_no">注册成功</div></div>				
+			</div>
+			<div class="d">
+				<input id="email" onblur="check_email(this)" type="text" class="ipt" name="email" placeholder="邮箱" autocomplete="off"></input><div class="tips"></div>
+			</div>
+			<div class="d">
+				<input type="text" class="ipt-yzm" name="ch" placeholder="验证码" autocomplete="off"></input>
+				<button onclick="get_check()" class="get_check"  type="button">获取验证码</button>
+			</div>
+			<div class="d">
+				<input class="sub" type="submit" value="下一步"></input>
+			</div>
+			<div class="d">
+				<a href="" class="admin_register">管理员注册</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

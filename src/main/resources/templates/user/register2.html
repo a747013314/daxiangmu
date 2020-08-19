@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>xx -注册2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" th:href="@{/app/css/register.css}"/>
+	<script type="text/javascript" th:src="@{/app/js/register2.js}"></script>
+</head>
+<body>
+	<div class="register-top">
+		
+	</div>
+	<div class="register-mid">
+		<form action="" method="post" class="register-form" onsubmit="return check()">
+			<div class="top">
+				<div class="top1"><div class="yuanquan_no">1</div><div class="font_no">验证邮箱</div></div>				 			
+				<div class="top2">>>>>>></div>				
+				<div class="top3"><div class="yuanquan_ok">2</div><div class="font_ok">填写账号信息</div></div>				
+				<div class="top2">>>>>>></div>				
+				<div class="top4"><div class="yuanquan_no">3</div><div class="font_no">注册成功</div></div>				
+			</div>
+			<div class="d">
+				<input type="text" class="ipt" name="uN" placeholder="用户名" autocomplete="off" onblur="check_username(this)"></input><div class="tips"></div>
+			</div>
+			<div class="d">
+				<input type="password" class="ipt" name="pwd" placeholder="密码" autocomplete="off" onblur="check_pwd1(this)"></input><div class="tips"></div>
+			</div>
+			<div class="d">
+				<input type="password" class="ipt" name="ch_pwd" placeholder="确认密码" autocomplete="off" onblur="check_pwd2(this)"></input><div class="tips"></div>
+			</div>
+			<div class="d">
+				<input type="text" class="ipt" name="tel" placeholder="手机号" autocomplete="off" onblur="check_tel(this)"></input><div class="tips"></div>
+			</div>
+			<div class="d">
+				<input type="text" class="ipt" name="rece_add" placeholder="收货地址" autocomplete="off" onclick="show_receAdd(this)" onblur="check_receAdd(this)"></input><div class="tips"></div>
+			</div>
+			<div class="d">
+				<input class="sub" type="submit" value="下一步"></input>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>xx -登录</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" media="all" th:href="@{/app/css/login1.css}"/>
+	<script type="text/javascript"  th:src="@{/app/js/login1.js}"></script>
+</head>
+<body>
+	<div class="login-top"></div>
+	<div class="login-mid">
+		<div class="login-mid-t">
+			<div class="unAndPwd">
+				<div class="unAndPwd-top">
+					<div class="unAndPwd-top-font">账户登录</div>
+				</div>
+				<form action="" class="login-form" onsubmit="return check()" method="post">
+					<div class="tips"></div>
+					<div>
+						<input type="text" class="ipt-unAndPwd" name="username" placeholder="用户名" autocomplete="off"></input>
+					</div>
+					<div>
+						<input type="password" class="ipt-unAndPwd" name="password" placeholder="密码" autocomplete="off"></input>
+					</div>
+					<div>
+						<a class="forgetPwd" href="">忘记密码</a>
+					</div>
+					<div>
+						<input type="submit" class="ipt-sub" value="登录"></input>
+					</div>
+				</form>
+				<div>
+					<a class="login-reg" href="">立即注册</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="login-bottom"></div>
+</body>
+</html>

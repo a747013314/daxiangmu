@@ -1,0 +1,21 @@
+spring:
+  mail:
+    host: smtp.qq.com  	#邮箱服务器地址
+    username:    #邮箱账号
+    password: 			#邮箱密码
+    default-encoding: utf-8	#默认编码
+    favicon:
+      enabled: false
+#邮件发件人
+mail:
+  fromMail:
+    addr:
+
+
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+  returnPageInfo: check
